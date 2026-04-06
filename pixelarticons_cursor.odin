@@ -58,7 +58,8 @@ Cursor :: enum {
 	ZoomOutDark,
 }
 
-CURSOR_RECTS :: [Cursor]rl.Rectangle {
+@(rodata)
+CURSOR_RECTS := [Cursor]rl.Rectangle {
 	.ColResize = {x = 0.0, y = 0.0, width = 34.0, height = 32.0},
 	.Copy = {x = 34.0, y = 0.0, width = 32.0, height = 32.0},
 	.CopyDark = {x = 68.0, y = 0.0, width = 32.0, height = 32.0},

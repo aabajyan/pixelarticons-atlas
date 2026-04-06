@@ -807,7 +807,8 @@ Icon :: enum {
 	ZoomOut,
 }
 
-ICON_RECTS :: [Icon]rl.Rectangle {
+@(rodata)
+ICON_RECTS := [Icon]rl.Rectangle {
 	.AArrowDownSharp = {x = 0.0, y = 0.0, width = 24.0, height = 24.0},
 	.AArrowDown = {x = 24.0, y = 0.0, width = 24.0, height = 24.0},
 	.AArrowUpSharp = {x = 48.0, y = 0.0, width = 24.0, height = 24.0},
